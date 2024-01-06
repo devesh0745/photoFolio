@@ -1,0 +1,105 @@
+#input-form{
+    height: auto;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 27%;
+    margin-top: 2%;
+    border-radius: 50px;
+    padding-bottom: 1%;
+    box-shadow: 0px 4px 10px 0px rgb(184, 188, 206);
+    border-color: rgb(37, 162, 224);
+}
+#heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3rem;
+}
+#field {
+    width: 60%;
+    height: 40px;
+    border-radius: 8px;
+    position: relative;
+    background-color: rgba(248, 248, 248, 0.3);
+    transition: 0.3s all;
+    border-color: rgb(4, 57, 83);
+  }
+#field:hover {
+    background-color: rgba(249, 245, 245, 0.45);
+    box-shadow: 0px 4px 20px 0px rgb(103, 185, 103)
+  }
+#album-create-btn{
+    align-items: 'center';
+    justify-content: 'center';
+    border-radius: 4px;
+    background-color: white;
+    color: blue;
+    height: 35px;
+    width: 80px;
+    margin-left: 8%;
+    border-color: rgb(23, 80, 109);
+}
+#album-create-btn:hover {
+    background-color: rgba(249, 245, 245, 0.45);
+    box-shadow: 0px 4px 20px 0px rgb(122, 138, 208)
+  }
+#album-clear-btn{
+    align-items: 'center';
+    justify-content: 'center';
+    border-radius: 4px;
+    background-color: white;
+    color: blue;
+    height: 35px;
+    width: 80px;
+    margin-top: 2%;
+    border-color: rgb(23, 80, 109);
+}
+#album-clear-btn:hover {
+    background-color: rgba(249, 245, 245, 0.45);
+    box-shadow: 0px 4px 20px 0px rgb(122, 138, 208)
+}
+#all-albums{
+  width: 70vw;
+  height: auto;
+/*  border: 3px solid black;*/
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-left: 15%;
+
+}
+#album{
+    height: 18vh;
+    width: 14vw;
+    border: 1px solid black;
+    margin-top: 3%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px 0px rgb(5, 49, 97);
+    border-color: rgb(4, 56, 82);
+    margin-bottom: 2%;
+}
+#addPhotos{
+    align-items: 'center';
+    justify-content: 'center';
+    border-radius: 4px;
+    background-color: white;
+    color:black;
+    height: 45px;
+    width: 80px;
+    margin-top: 2%;
+    border-color: rgb(121, 121, 235);
+}
+#addPhotos:hover {
+    background-color: rgba(249, 245, 245, 0.45);
+    box-shadow: 0px 4px 10px 0px rgb(200, 202, 212)
+}
+#album:hover{
+    -webkit-transform:scale(0.9);
+    -moz-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+}
+#album-heading{
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(6, 56, 68);
+}
